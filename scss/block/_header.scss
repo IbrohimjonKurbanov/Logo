@@ -1,0 +1,27 @@
+// HEADER
+.header
+{
+    background-color: $header-footer-bg;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    
+    .container
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+        ul
+        {
+            display: flex;
+
+            li:not(:last-child) {
+              margin-right: 4rem;
+            }
+
+            a {
+              color: $white-color;
+            }
+        }
+    }
