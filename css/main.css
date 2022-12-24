@@ -598,6 +598,7 @@ body {
 .layout-warpper .layout-box .span-blue {
   background-color: rgba(0, 179, 255, 0.881);
   border-radius: 3px;
+  color: #fff;
   padding: 2px 0;
 }
 .layout-warpper .layout-box h4 {
